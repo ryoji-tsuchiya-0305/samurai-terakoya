@@ -1,0 +1,53 @@
+/* 全体設定 */
+body {
+  margin: 0;
+  font-family: "Yu Mincho", serif;
+}
+
+/* ヘッダー */
+header {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* メインコンテンツ */
+main {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.slideshow img {
+  max-width: 80%;
+  height: auto;
+  display: none;
+}
+
+/* フッター */
+footer {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 20px 0;
+}
